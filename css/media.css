@@ -1,0 +1,361 @@
+@media only screen and (min-width: 993px) and (max-width: 1200px): {
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 559px) and (max-width: 995px) {
+  .block-1 {
+    background-repeat: space;
+    background-size: contain; 
+  }
+
+  .block-1-product,
+  .block-1-sale,
+  .block-1-order {
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .block-1-product {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 83%;
+    align-items: center;
+  }
+
+  .block-1-product img {
+    max-width: 385px;
+  }
+
+  .block-1-product p {
+    max-width: 385px;
+    order: -2;
+    background-color: rgba(238, 225, 146, 0.7);
+    border-radius: 10px;
+    color: #000;
+    box-sizing: border-box;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+  }  
+  
+  .block-1-product li, .block-1-timer, .block-3 p, .block-5  {
+    background-color: rgba(238, 225, 146, 0.7);
+    border-radius: 10px;
+    color: #000;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .block-1-timer {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+  }
+
+  .block-1-timer p {
+    padding-left: 150px;
+    padding-top: 10px;
+    text-align: right;
+  }
+  
+  .block-1-timer span {
+    margin-right: 0;
+    padding: 5px 10px 0 10px;
+    font-size: 34px;
+  }
+
+  .block-1-header {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .block-1-order {
+    max-width: 520px;
+    font-size: 20px;
+    vertical-align: bottom;
+  }
+
+  .block-1-price {
+    background-image: none;
+    background-color: #4c1e15;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  form {
+    padding: 30px 20px;
+  }
+
+  input {
+    width: 92%;
+    margin-bottom: 15px;
+    padding: 20px 0 20px 35px;
+    font-size: 20px;
+    color: #a6a6a6;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+  }
+
+  form button {
+    margin-left: 22%;
+  }
+
+  form > p {
+    font-size: 10px;
+  }
+
+  .block-2-question {
+    padding: 15px;
+    width: 80%;
+  }
+
+  .block-2-btn {
+    background-image: none;
+    color: #fff;
+    background-color: #fc481a;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 46%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    text-transform: uppercase;
+  }
+
+  .block-2-btn:active {
+    background-image: none;
+    color: #fc481a;
+    background-color: #fff;
+    outline: none;
+  }
+
+  .block-2-btn:last-of-type {
+    margin-left: 10px;
+  }
+
+  .block-3 {
+    background-size: cover;
+    padding-left: 5px;
+  }
+
+  .block-4-advantages {
+    padding-left: 10px;
+    width: 89%;
+    margin: auto; 
+  }
+
+  div.block-4-advantages:before  {
+    background-image: none;
+    width: 0px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .block-5 {
+    background-position: bottom right;
+  }
+
+  .block-5 > p {
+    max-width: 90%;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 560px) {
+  .block-1 {
+    background-repeat: space;
+    background-size: contain; 
+  }
+
+  .block-1-product,
+  .block-1-sale,
+  .block-1-order {
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+
+  .block-1-product {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+  }
+
+  .block-1-product img {
+    max-width: 385px;
+  }
+
+  .block-1-product p {
+    max-width: 385px;
+    order: -2;
+    background-color: rgba(238, 225, 146, 0.7);
+    border-radius: 10px;
+    color: #000;
+    box-sizing: border-box;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+  }  
+  
+  .block-1-product li, .block-1-timer, .block-3 p, .block-5, .block-3-header, .block-2-header, .block-5 h2  {
+    background-color: rgba(238, 225, 146, 0.7);
+    border-radius: 10px;
+    color: #000;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .block-1-timer {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+  }
+
+  .block-1-timer p {
+    padding-left: 150px;
+    padding-top: 10px;
+    text-align: right;
+  }
+
+  .block-1-timer span {
+    margin-right: 0;
+    padding: 5px 10px 0 10px;
+    font-size: 34px;
+  }
+
+  .block-1-header {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .block-1-order {
+    max-width: 520px;
+    font-size: 20px;
+    vertical-align: bottom;
+  }
+
+  .block-1-order {
+    max-width: 520px;
+    font-size: 20px;
+    vertical-align: bottom;
+  }
+
+  .block-1-price {
+    background-image: none;
+    background-color: #4c1e15;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form {
+    padding: 30px 20px; 
+  }
+  
+  input {
+    width: 92%;
+    margin-bottom: 15px;
+    padding: 20px 0 20px 35px;
+    font-size: 20px;
+    color: #a6a6a6;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+  } 
+  
+  form button {
+    margin-left: 22%;
+  }
+
+  form > p {
+    font-size: 10px;
+  }
+
+  .block-2-question {
+    padding: 15px;
+    width: 80%;
+  }
+
+  .block-2-btn {
+    background-image: none;
+    color: #fff;
+    background-color: #fc481a;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 46%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    text-transform: uppercase;
+  }
+  
+  .block-2-btn:active {
+    background-image: none;
+    color: #fc481a;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .block-2-btn:last-of-type {
+    margin-left: 10px;
+  }
+
+  .block-3 {
+    background-size: cover;
+    padding-left: 5px;
+  }
+
+  .block-3 p {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .block-3-header {
+    font-size: 36px;
+    width: 95%;
+  }
+
+  .block-4-advantages {
+    padding-left: 10px;
+    background-image: none;
+  }
+
+  div.block-4-advantages:before  {
+    background-image: none;
+    width: 0px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .block-5 > p {
+    max-width: 90%;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+}
